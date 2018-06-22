@@ -1,0 +1,54 @@
+<html>
+
+<head>
+<title>texture cube</title>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
+<script type="text/javascript" src="app.js">
+</script>
+
+
+</head>
+
+<body onload="main()">
+    <canvas id="canvas" style="border: none;" width="400" height="400"></canvas>
+	<br>
+	<br>
+	<button onclick="initiateRotate()">Animation Rotate </button>
+
+
+
+<h2>chage image</h2>
+ <button onclick="document.getElementById
+ ('crate-image').src='bricks.png'">bricks</button>
+
+ <button onclick="document.getElementById
+ ('crate-image').src='clover.png'">clover</button>
+
+ <button onclick="document.getElementById
+ ('crate-image').src='leaves.png'">leaves</button>
+
+
+  <button onclick="document.getElementById
+  ('crate-image').src='rustytiles.jpg'">rustytiles</button>
+
+  <button onclick="document.getElementById
+  ('crate-image').src='wood.jpg'">wood</button>
+
+  <button onclick="document.getElementById
+  ('crate-image').src='abstract-art.jpg'">abstract-art</button>
+
+<br>
+<h2>chage effect</h2>
+  <button id="1" onclick="changeEffect(1)">invert</button>
+  <button  id="2" onclick="changeEffect(2)">wavy</button>
+  <button  id="3" onclick="changeEffect(3)">grain</button>
+
+
+
+<img width="0" height="0"
+id="crate-image"
+src="clover.png" />
+</body>
+
+</html>
